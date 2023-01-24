@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import { Typography,  AppBar } from '@material-ui/core';
+import Navbar from './component/Navbar';
+import Home from './component/Home';
+import Skills from './component/Skills';
+import Projects from './component/Projects';
+import About from './component/About';
+// import Contact from './component/Contact';
+
+
+// import './styles.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+  <Navbar />
+
+  
+  
+   <Routes>
+  
+          <Route exact path='/' element={<Home />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Skills' element={<Skills />} />
+          <Route path="/Projects" element={<Projects />} />
+          {/* <Route path="/Resume" element={<Resume />} /> */}
+          {/* <Route path="/Contact" element={<Contact />} /> */}
+    
+  
+    </Routes>
+   
+    </>
+    
+    
   );
 }
 

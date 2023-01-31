@@ -5,8 +5,8 @@ export default function Skills() {
     <>
     
     <div className="w-container">
-            <h4 className="h3">My Skills</h4>
-            <p>
+            <h4 className="h3 pageTitle">My Skills</h4>
+            <p className='skillContainer'>
                 <table className="table">
                     <tr className="my-skills"> 
                         <th> HTML</th>
@@ -25,7 +25,7 @@ export default function Skills() {
         </div>
        
 
-        <Link to="/">Home</Link>
+        {/* <Link to="/">Home</Link> */}
      
 
     </>

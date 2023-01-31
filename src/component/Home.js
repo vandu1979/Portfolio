@@ -19,7 +19,7 @@ export default function Home() {
                </p>
             </div>
         </div>
-        <Link to="/Contact">Contact</Link>
+        {/* <Link to="/Contact">Contact</Link> */}
       </section>
 
     </>

@@ -25,7 +25,7 @@ export default function Navbar() {
           <li><NavLink to="/skills">Skills</NavLink></li> 
           <li><NavLink to="/projects">Projects</NavLink></li>
           <li><NavLink to={resume} target='_blank'>Resume</NavLink></li>
-          {/* <li><NavLink to="/contact">Contact</NavLink></li> */}
+          <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
         </div>
         {/* social media link */}

@@ -4,16 +4,16 @@ export default function Skills() {
   return (
     <>
     
-    <div class="w-container">
-            <h4 class="h3">My Skills</h4>
+    <div className="w-container">
+            <h4 className="h3">My Skills</h4>
             <p>
-                <table class="table">
-                    <tr class="my-skills"> 
+                <table className="table">
+                    <tr className="my-skills"> 
                         <th> HTML</th>
                         <th> CSS </th>
                         <th> JavaScript</th>
                     </tr>
-                    <tr class="my-skills"> 
+                    <tr className="my-skills"> 
                         <th> MongoDB</th>
                         <th> Express </th>
                         <th> React </th>

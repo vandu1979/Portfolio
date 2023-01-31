@@ -7,7 +7,7 @@ import Home from './component/Home';
 import Skills from './component/Skills';
 import Projects from './component/Projects';
 import About from './component/About';
-// import Contact from './component/Contact';
+import Contact from './component/Contact';
 
 
 // import './styles.css'
@@ -26,7 +26,7 @@ function App() {
           <Route path='/Skills' element={<Skills />} />
           <Route path="/Projects" element={<Projects />} />
           {/* <Route path="/Resume" element={<Resume />} /> */}
-          {/* <Route path="/Contact" element={<Contact />} /> */}
+          <Route path="/Contact" element={<Contact />} />
     
   
     </Routes>

@@ -815,7 +815,7 @@
       "nameRequired": "फ़ील्ड नाम आवश्यक है",
       "fieldIndicator": "फील्ड संकेतक",
       "documentFieldIndicator": "दस्तावेज़ फ़ील्ड संकेतक",
-      "indicatorPlaceHolders": {
+      "ifdicatorPlaceHolders": {
         "TextFormField": "यहां टेक्स्ट डालें",
         "CheckBoxFormField": "जांच",
         "RadioButtonFormField": "भरना",
